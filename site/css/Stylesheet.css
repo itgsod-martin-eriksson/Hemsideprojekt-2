@@ -1,5 +1,5 @@
 body {
-    background-color: ;
+    background-color: gainsboro;
 }
 
 #Logo {
@@ -7,7 +7,7 @@ body {
     width: 1000px;
     height: 220px;
     margin-left: 140px;
-    background-color: #540300;
+    background-color: #053454;
 }
 
 #Logoimg {
@@ -18,7 +18,7 @@ body {
 }
 
 #Container {
-    background-color: #540300;
+    background-color: #053454;
     float: left;
     width: 1000px;
     height: 1400px;
@@ -44,7 +44,7 @@ body {
 .Button {
     height: 40px;
     width: 150px;
-    background-color: #540300;
+    background-color: #053454;
     float: left;
     margin-top: 10px;
     margin-left: 10px;
