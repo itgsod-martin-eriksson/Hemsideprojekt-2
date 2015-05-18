@@ -21,10 +21,9 @@ body {
     background-color: #053454;
     float: left;
     width: 1000px;
-    height: 1400px;
+    height: 1800px;
     margin-left: 140px;
     margin-top: 10px;
-
 }
 
 #MenuBar {
@@ -52,6 +51,8 @@ body {
     font-size: 20px;
     text-align: center;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 #Button1 {
@@ -67,6 +68,79 @@ a {
 }
 
 .Button:hover {
-    background-color: gray;
+    background-color: #37729B;
     color: ghostwhite;
+}
+
+#nyhetimg1 {
+    float: right;
+    width: 520px;
+    height: 350px;
+    background-color: #075387;
+    margin-right: 20px;
+    margin-top: 100px;
+}
+
+#nyhetsimg1fix {
+    float: left;
+    width: 500px;
+    height: 330px;
+    margin: 10px;
+}
+
+#nyhet1content1 {
+    float: left;
+    width: 420px;
+    height: 800px;
+    background-color: #075387;
+    margin-left: 20px;
+    margin-top: 100px;
+    text-align: center;
+    color: ghostwhite;
+
+}
+
+#nyhet1content2 {
+    float: right;
+    width: 520px;
+    height: 430px;
+    background-color: #075387;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: ghostwhite;
+}
+
+#nyhet1end {
+    float: left;
+    width: 760px;
+    height: 5px;
+    background-color: gainsboro;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+#nyhet2content1 {
+    float: left;
+    width: 420px;
+    height: 800px;
+    background-color: #075387;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#nyhetimg1 {
+    float: right;
+    width: 520px;
+    height: 350px;
+    background-color: #075387;
+    margin-right: 20px;
+    margin-top: 100px;
+}
+
+#nyhetsimg1fix {
+    float: left;
+    width: 500px;
+    height: 330px;
+    margin: 10px;
 }

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>GRCA(Gordon Ramsays Cooking Academy</title>
+    <link rel="stylesheet" href="../css/Stylesheet.css" type="text/css">
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        function sticky_relocate() {
+            var window_top = $(window).scrollTop();
+            var div_top = $('#sticky-anchor').offset().top;
+            if (window_top > div_top) {
+                $('#MenuBar').addClass('stick');
+            } else {
+                $('#MenuBar').removeClass('stick');
+            }
+        }
+
+        $(function () {
+            $(window).scroll(sticky_relocate);
+            sticky_relocate();
+        });
+    </script>
+</head>
+<body>
+
+    <a id="Logo" >
+        <img id="Logoimg" src="../../img/menubarpic.jpg">
+    </a>
+
+    <div id="Container">
+        <div id="sticky-anchor"></div>
+        <div id="MenuBar">
+
+            <a class="Button" id="Button1" href="nyheter.html">Nyheter</a>
+            <a class="Button" href="schema.html">Schema</a>
+            <a class="Button" href="progam.html">Våra Program</a>
+            <a class="Button" href="skolan.html">Om Skolan</a>
+            <a class="Button" href="kurser.html">Kurser</a>
+            <a class="Button" href="hitta.html">Hitta Hit</a>
+
+        </div>
+
+        <div id="nyhet1content1"><u><h2>Amerikanskt Tema</h2></u>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac nisi et lectus sollicitudin fermentum.Etiam porttitor scelerisque magna nec pretium. Aliquam interdum eros et odio laoreet, vel dictum eros interdum. Quisque egestas metus commodo ipsum laoreet, quis congue dolor viverra. Proin imperdiet risus et efficitur commodo. In nisi turpis, aliquam eget vestibulum varius, ultricies nec lacus. Vestibulum non commodo enim. Quisque ut sapien pharetra, elementum lacus non, viverra sem. Aliquam gravida enim eu ullamcorper rutrum.<br><br>Maecenas sem metus, finibus a semper ut, euismod nec libero. Aenean massa orci, feugiat ut ipsum accumsan, egestas elementum enim. Fusce massa turpis, feugiat at neque in, sodales rutrum turpis. Suspendisse viverra turpis ipsum, eu convallis libero cursus et. Ut eget sem pretium, suscipit sapien eu, pharetra dolor. Vestibulum tempus non nibh nec vestibulum. Duis ac orci ex. Vestibulum hendrerit tellus sit amet interdum faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus mattis pharetra tellus, nec lobortis tortor facilisis sit amet. Phasellus tristique lacus lectus, id pretium felis volutpat sed. Nunc et sollicitudin tortor. Proin ac consectetur nibh.
+                <br><br>Curabitur felis justo, rutrum sed euismod sit amet, gravida ut nisl. Phasellus vehicula massa in elementum mollis. Donec id nulla erat. Quisque hendrerit, enim non sodales sodales, libero nulla elementum nisi, non viverra sapien est vitae nisi. Nunc ut odio lorem. Donec felis lorem, consectetur sed velit eu, facilisis pellentesque lorem. Duis dolor dolor, vehicula viverra massa quis, elementum facilisis lectus. Aenean suscipit magna eu magna consequat sagittis eu sit amet diam. Morbi varius varius quam, eu congue mi posuere sit amet. Vestibulum id nisi elit. Aenean eu faucibus purus. <br><br>Aenean odio diam, tincidunt a condimentum vel, sollicitudin ac tellus. Curabitur in ornare nunc. Etiam placerat ac sem ac sodales. Fusce non ultrices magna, sit amet efficitur sem. Nunc mollis mi at luctus fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel venenatis massa.
+
+
+            </p>
+
+        </div>
+
+        <a id="nyhetimg1" >
+            <img id="nyhetsimg1fix" src="../../img/american-food.jpg">
+        </a>
+
+        <div id="nyhet1content2">Donec tincidunt varius ultricies. Cras dolor ipsum, egestas ut pellentesque eget, gravida at nunc. Ut scelerisque neque non ultricies commodo. Morbi at nulla nunc. Sed imperdiet, est viverra varius semper, tellus neque scelerisque diam, non luctus odio augue nec nisl. Maecenas consequat sapien eget nibh sollicitudin sagittis. Cras porttitor est ac metus faucibus facilisis. Pellentesque vestibulum sapien eget venenatis malesuada. Aliquam et lectus dictum, tempus mauris gravida, sollicitudin massa. Nunc hendrerit lobortis hendrerit. Suspendisse fermentum sed quam eu malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi nec turpis nisl.
+            <br><br>Suspendisse nibh nibh, auctor sed dictum imperdiet, commodo sit amet nunc. Pellentesque aliquam dui id ipsum auctor fringilla. Curabitur porta iaculis ullamcorper. Aenean in luctus nunc. Nullam et magna ligula. Fusce pellentesque commodo vulputate. Morbi rutrum mauris eget nisi consectetur auctor. Maecenas vel metus interdum, convallis diam eu, convallis lorem. Fusce a convallis felis, ut tincidunt sapien. Praesent eget sagittis risus, in venenatis urna. Sed non est sit amet nulla porta pulvinar. Suspendisse pulvinar feugiat velit et tristique. Duis accumsan massa velit, congue eleifend metus efficitur eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tincidunt tempus vulputate.Ut dignissim vestibulum bibendum. Vestibulum sit amet vestibulum neque, at sagittis metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+
+
+        </div>
+
+        <div id="nyhet1end"></div>
+
+        <div id="nyhet2content1"></div>
+
+    </div>
+
+</body>
+</html>
+
