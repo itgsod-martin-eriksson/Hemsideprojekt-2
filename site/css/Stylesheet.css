@@ -97,7 +97,8 @@ a {
     margin-top: 100px;
     text-align: center;
     color: ghostwhite;
-
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
 }
 
 #nyhet1content2 {
@@ -109,6 +110,8 @@ a {
     margin-top: 20px;
     text-align: center;
     color: ghostwhite;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
 }
 
 #nyhet1end {
@@ -127,20 +130,38 @@ a {
     background-color: #075387;
     margin-left: 20px;
     margin-top: 20px;
+    text-align: center;
+    color: ghostwhite;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+
 }
 
-#nyhetimg1 {
+#nyhetimg2 {
     float: right;
     width: 520px;
     height: 350px;
     background-color: #075387;
     margin-right: 20px;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
-#nyhetsimg1fix {
+#nyhetsimg2fix {
     float: left;
     width: 500px;
     height: 330px;
     margin: 10px;
+}
+
+#nyhet2content2 {
+    float: right;
+    width: 520px;
+    height: 430px;
+    background-color: #075387;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: ghostwhite;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
 }
