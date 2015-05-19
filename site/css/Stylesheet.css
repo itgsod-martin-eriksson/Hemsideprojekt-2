@@ -44,6 +44,15 @@ body {
     margin-top: 10px;
 }
 
+#Container3 {
+    background-color: #053454;
+    float: left;
+    width: 1000px;
+    height: 1130px;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+
 #MenuBar {
     height: 80px;
     width: 1000px;
