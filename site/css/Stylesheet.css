@@ -35,6 +35,15 @@ body {
     margin-top: 10px;
 }
 
+#Container2 {
+    background-color: #053454;
+    float: left;
+    width: 1000px;
+    height: 1530px;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+
 #MenuBar {
     height: 80px;
     width: 1000px;
@@ -216,4 +225,124 @@ a {
     color: ghostwhite;
     padding-bottom: 10px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#program_header {
+    float: left;
+    width: 900px;
+    height: 100px;
+    background-color: #075387;
+    margin-top: 100px;
+    margin-left: 50px;
+    text-align: center;
+    color: ghostwhite;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#program1 {
+    float: left;
+    width: 900px;
+    height: 300px;
+    background-color: #075387;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: ghostwhite;
+}
+
+#programcontent1 {
+    float: left;
+    width: 540px;
+    height: 300px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: ghostwhite;
+    text-align: center;
+}
+
+#programpic1 {
+    float: right;
+    width: 340px;
+    height: 300px;
+    background-color: aqua;
+}
+
+#program2 {
+    float: left;
+    width: 900px;
+    height: 300px;
+    background-color: #075387;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: ghostwhite;
+}
+
+#programcontent2 {
+    float: left;
+    width: 540px;
+    height: 300px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: ghostwhite;
+    text-align: center;
+}
+
+#programpic2 {
+    float: right;
+    width: 340px;
+    height: 300px;
+    background-color: aqua;
+}
+
+#program3 {
+    float: left;
+    width: 900px;
+    height: 300px;
+    background-color: #075387;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: ghostwhite;
+}
+
+#programcontent3 {
+    float: left;
+    width: 540px;
+    height: 300px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: ghostwhite;
+    text-align: center;
+}
+
+#programpic3 {
+    float: right;
+    width: 340px;
+    height: 300px;
+    background-color: aqua;
+}
+
+#program4 {
+    float: left;
+    width: 900px;
+    height: 300px;
+    background-color: #075387;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: ghostwhite;
+}
+
+#programcontent4 {
+    float: left;
+    width: 540px;
+    height: 300px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: ghostwhite;
+    text-align: center;
+}
+
+#programpic4 {
+    float: right;
+    width: 340px;
+    height: 300px;
+    background-color: aqua;
 }
