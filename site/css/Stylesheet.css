@@ -396,3 +396,15 @@ a {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: ghostwhite;
 }
+
+#kurser_header {
+    float: left;
+    width: 900px;
+    height: 100px;
+    background-color: #075387;
+    margin-top: 100px;
+    margin-left: 50px;
+    text-align: center;
+    color: ghostwhite;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
