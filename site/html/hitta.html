@@ -21,6 +21,18 @@
             sticky_relocate();
         });
     </script>
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script>
+        function initialize() {
+            var mapProp = {
+                center:new google.maps.LatLng(59.610984,16.542147),
+                zoom:18,
+                mapTypeId:google.maps.MapTypeId.ROADMAP
+            };
+            var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
 </head>
 <body>
 
@@ -28,7 +40,7 @@
     <img id="Logoimg" src="../../img/menubarpic.jpg">
 </a>
 
-<div id="Container">
+<div id="Container4">
     <div id="sticky-anchor"></div>
     <div id="MenuBar">
 
@@ -40,6 +52,21 @@
         <a class="Button" href="hitta.html">Hitta Hit</a>
 
     </div>
+
+    <div id="program_header"><u><h2>Hitta hit</h2></u></div>
+
+    <div id="hittacontent1"><u><h2>Skrapan</h2></u><p>Suspendisse potenti. Proin vel nibh vel enim aliquet egestas in molestie mauris. Morbi lacinia non lorem sit amet blandit. Donec faucibus urna turpis, ut viverra orci luctus eget. In elementum laoreet quam, eget lacinia urna pulvinar eget. Curabitur a erat pellentesque, hendrerit nunc ut, efficitur ante. Vivamus id euismod turpis. Mauris rhoncus sapien vel sem sollicitudin, vel vulputate justo tristique. Integer egestas diam quis pulvinar mollis. Curabitur at enim eget tellus imperdiet laoreet vitae a sem. Sed commodo, quam ut sollicitudin ultrices, eros nibh ultricies nisi, in blandit arcu est non nulla. Mauris vitae feugiat quam, in congue nunc.
+    <br><br>Suspendisse potenti. Proin vel nibh vel enim aliquet egestas in molestie mauris. Morbi lacinia non lorem sit amet blandit. Donec faucibus urna turpis, ut viverra orci luctus eget. In elementum laoreet quam, eget lacinia urna pulvinar eget. Curabitur a erat pellentesque, hendrerit nunc ut, efficitur ante. Vivamus id euismod turpis. Mauris rhoncus sapien vel sem sollicitudin, vel vulputate justo tristique. Integer egestas diam quis pulvinar mollis. Curabitur at enim eget tellus imperdiet laoreet vitae a sem. Sed commodo, quam ut sollicitudin ultrices, eros nibh ultricies nisi, in blandit arcu est non nulla. Mauris vitae feugiat quam, in congue nunc.
+    <br><br>Suspendisse potenti. Proin vel nibh vel enim aliquet egestas in molestie mauris. Morbi lacinia non lorem sit amet blandit. Donec faucibus urna turpis, ut viverra orci luctus eget. In elementum laoreet quam, eget lacinia urna pulvinar eget. Curabitur a erat pellentesque, hendrerit nunc ut, efficitur ante. Vivamus id euismod turpis. Mauris rhoncus sapien vel sem sollicitudin, vel vulputate justo tristique. Integer egestas diam quis pulvinar mollis. Curabitur at enim eget tellus imperdiet laoreet vitae a sem. Sed commodo, quam ut sollicitudin ultrices, eros nibh ultricies nisi, in blandit arcu est non nulla. Mauris vitae feugiat quam, in congue nunc.
+        Phasellus consectetur, massa vel mattis ultrices, metus sapien condimentum erat, vitae sagittis urna dolor non eros. Etiam ultricies molestie pretium. Praesent ut porttitor ipsum.</p></div>
+
+    <div id="mapfix">
+        <div id="googleMap" style="width:500px;height:380px;"></div>
+    </div>
+
+    <div id="hittacontent2">Suspendisse potenti. Proin vel nibh vel enim aliquet egestas in molestie mauris. Morbi lacinia non lorem sit amet blandit. Donec faucibus urna turpis, ut viverra orci luctus eget. In elementum laoreet quam, eget lacinia urna pulvinar eget. Curabitur a erat pellentesque, hendrerit nunc ut, efficitur ante. Vivamus id euismod turpis. Mauris rhoncus sapien vel sem sollicitudin, vel vulputate justo tristique. Integer egestas diam quis pulvinar mollis. Curabitur at enim eget tellus imperdiet laoreet vitae a sem. Sed commodo, quam ut sollicitudin ultrices, eros nibh ultricies nisi, in blandit arcu est non nulla. Mauris vitae feugiat quam, in congue nunc.
+    <br><br>Suspendisse potenti. Proin vel nibh vel enim aliquet egestas in molestie mauris. Morbi lacinia non lorem sit amet blandit. Donec faucibus urna turpis, ut viverra orci luctus eget. In elementum laoreet quam, eget lacinia urna pulvinar eget. Curabitur a erat pellentesque, hendrerit nunc ut, efficitur ante. Vivamus id euismod turpis. Mauris rhoncus sapien vel sem sollicitudin, vel vulputate justo tristique. Integer egestas diam quis pulvinar mollis. Curabitur at enim eget tellus imperdiet laoreet vitae a sem. Sed commodo, quam ut sollicitudin ultrices, eros nibh ultricies nisi, in blandit arcu est non nulla. Mauris vitae feugiat quam, in congue nunc.
+    <br><br>Suspendisse potenti. Proin vel nibh vel enim aliquet egestas in molestie mauris. Morbi lacinia non lorem sit amet blandit. Donec faucibus urna turpis, ut viverra orci luctus eget. In elementum laoreet quam, eget lacinia urna pulvinar eget. Curabitur a erat pellentesque, hendrerit nunc ut, efficitur ante. Vivamus id euismod turpis. Mauris rhoncus sapien vel sem sollicitudin, vel vulputate justo tristique. Integer egestas diam quis pulvinar mollis. Curabitur at enim eget tellus imperdiet laoreet vitae a sem. Sed commodo, quam ut sollicitudin ultrices, eros nibh ultricies nisi, in blandit arcu est non nulla. Mauris vitae feugiat quam, in congue nunc.</div>
 
 </div>
 

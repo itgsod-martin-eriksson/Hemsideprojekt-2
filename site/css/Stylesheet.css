@@ -53,6 +53,15 @@ body {
     margin-top: 10px;
 }
 
+#Container4 {
+    background-color: #053454;
+    float: left;
+    width: 1000px;
+    height: 1250px;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+
 #MenuBar {
     height: 80px;
     width: 1000px;
@@ -404,6 +413,44 @@ a {
     background-color: #075387;
     margin-top: 100px;
     margin-left: 50px;
+    text-align: center;
+    color: ghostwhite;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#hittacontent1 {
+    float: left;
+    width: 360px;
+    height: 1000px;
+    background-color: #075387;
+    margin-left: 50px;
+    margin-top: 10px;
+    text-align: center;
+    color: ghostwhite;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#googleMap {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#mapfix {
+    float: right;
+    width: 520px;
+    height: 400px;
+    background-color: #075387;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+#hittacontent2 {
+    float: right;
+    width: 520px;
+    height: 580px;
+    background-color: #075387;
+    margin-right: 50px;
+    margin-top: 20px;
     text-align: center;
     color: ghostwhite;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
